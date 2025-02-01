@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full flex justify-between items-center px-8 py-3 z-50 bg-white shadow-md">
       <Link to="hero" smooth={true} className="flex items-center">
-        <img src={logo} alt="329 Capital Logo" className="h-10" />
+        <img src={logo} alt="329 Capital Logo" className="h-14" />
       </Link>
 
       <ul className="hidden md:flex space-x-8 text-lg font-medium">
