@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const Hero = ({ title, subTitle, backgroundImage }) => {
   return (
     <section
+    id="home"
       className="relative w-full h-screen flex items-center justify-center text-white"
       style={{
         backgroundImage: `url(${backgroundImage})`, // Use the passed backgroundImage

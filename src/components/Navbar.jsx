@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 w-full flex justify-between items-center px-8 py-3 z-50 bg-white shadow-md">
-      <Link to="hero" smooth={true} className="flex items-center">
-        <img src={logo} alt="329 Capital Logo" className="h-14" />
+      <Link to="home" smooth={true} className="flex items-center">
+        <img src={logo} alt="329 Capital Logo" className="h-14 cursor-pointer" />
       </Link>
 
       <ul className="hidden md:flex space-x-8 text-lg font-medium">
@@ -51,21 +51,13 @@ const Navbar = () => {
             Team
           </Link>
         </li>
-        <li>
-          <Link
-            to="contact"
-            smooth={true}
-            className="text-black hover:text-green-500 cursor-pointer"
-          >
-            Contact
-          </Link>
-        </li>
+        
       </ul>
 
       <Link
         to="contact"
         smooth={true}
-        className="bg-gradient-to-r from-green-900 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hidden md:block"
+        className="bg-gradient-to-r from-green-900 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg cursor-pointer shadow-lg hidden md:block"
       >
         Contact Us
       </Link>
@@ -130,7 +122,8 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               onClick={toggleMenu}
-              className="bg-gradient-to-r from-green-900 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg shadow-lg "
+              
+              className="bg-gradient-to-r from-green-900 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-semibold py-2 px-4 rounded-lg shadow-lg  "
             >
               Contact Us
             </Link>

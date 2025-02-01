@@ -12,9 +12,7 @@ const Footer = () => {
           <a href="https://linkedin.com" className="text-white hover:text-green-500">
             LinkedIn
           </a>
-          <a href="https://github.com" className="text-white hover:text-green-500">
-            GitHub
-          </a>
+         
         </div>
       </div>
     </footer>
