@@ -8,9 +8,9 @@ const containerVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.1,
+      duration: 0.5,
       when: "beforeChildren",
-      staggerChildren: 0.1,
+      staggerChildren: 0.3,
       ease: "easeOut",
     },
   },
@@ -22,7 +22,7 @@ const itemVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.2, ease: "easeOut" },
+    transition: { duration: 0.5, ease: "easeOut" },
   },
 };
 
@@ -31,7 +31,7 @@ const About = () => {
     <motion.section
       variants={containerVariants}
       initial="hidden"
-      whileInView="visible"
+      animate="visible"
       viewport={{ once: false, amount: 0.2 }}
       id="about-us"
       className="py-14 px-6 sm:px-16 md:px-24 text-center bg-gradient-to-r from-gray-400 via-gray-900 to-green-900 font-[Aboreto] mt-4"
