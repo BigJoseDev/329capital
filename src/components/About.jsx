@@ -24,7 +24,7 @@ const About = () => {
   return (
     <section
       id="about-us"
-      className="py-14 px-6 sm:px-16 md:px-24 text-center bg-gradient-to-r from-gray-400 via-gray-900 to-green-900 font-[Aboreto] mt-4"
+      className="py-14 px-6 sm:px-16 md:px-24 text-center bg-gradient-to-r from-gray-400 via-gray-600 to-green-900 font-[Aboreto] mt-4"
     >
       <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-gray-100 mb-6">
         About Us

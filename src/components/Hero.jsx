@@ -31,8 +31,8 @@ const Hero = ({ title, subTitle, backgroundImage }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
       >
-        <h1 className="text-7xl font-bold mb-4">{title}</h1>
-        <p className="text-xl">{subTitle}</p>
+        <h1 className="text-6xl sm:text-6xl md:text-7xl lg:text-7xl font-bold mb-6">{title}</h1>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-2xl font-medium leading-snug">{subTitle}</p>
       </motion.div>
     </section>
   );
